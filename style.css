@@ -1,0 +1,503 @@
+/* google fonts  */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@100;200&family=Open+Sans:wght@300&family=Oswald&family=Pixelify+Sans:wght@400;500&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&family=Rubik&family=Sometype+Mono:wght@400;700&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav  */
+.navbar{
+    width: 100%;
+    height: 940px;
+    border: 1px solid transparent;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    border: 1px solid transparent;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+.nav .logo{
+    height: 100px;
+    width: 30%;
+    border: 1px solid transparent;
+}
+.logo img{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.nav .link{
+    height: 100px;
+    width: 40%;
+    border: 1px solid transparent;
+    padding-top: 30px;
+}
+.link a{
+    color: #EADAC5;
+    font-size: 20px;
+    padding-left: 70px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav .services{
+    height: 100px;
+    width: 30%;
+    border: 1px solid transparent;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.services h2{
+    font-size: 26px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: #EADAC5;
+}
+.services button{
+    height: 60px;
+    width: 170px;
+    color: #EADAC5;
+    font-size: 23px;
+    font-weight: 400;
+    border: 3px solid black;
+    border-radius: 70px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: #FF5414;
+}
+.home{
+    height: 940px;
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    position: relative;
+}
+.home .text{
+    height: 940px;
+    width: 52%;
+    border: 1px solid transparent;
+    background-color: #384337;
+}
+.text h2{
+    font-size: 33px;
+    font-weight: 600;
+    padding-top: 500px;
+    padding-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #EADAC5;
+}
+.text img{
+    height: 200px;
+    margin-left: 80px;
+}
+.text h1{
+    color: #EADAC5;
+    font-size: 200px;
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.home .icon{
+    height: 940px;
+    width: 48%;
+    border: 1px solid transparent;
+    background-image: url(IMAGES/bg\ 1.jpg);
+    background-size: cover;
+    border: 3px solid black;
+}
+/* shop  */
+.shop{
+    height: 2200px;
+    width: 100%;
+    background-color: #EADAC5;
+    border: 1px solid transparent;
+}
+.slider{
+    border: 1px solid transparent;
+    height: 200px;
+}
+.slider img{
+    border: 3px solid black;
+    height: 130px;
+    margin-top: 20px;
+}
+.slider span h1{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-size: 65px;
+    font-weight: 700;
+}
+.shop .text-2{
+    height: 870px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+.text-2 h1{
+    text-align: center;
+    color: #384337;
+    font-size: 210px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.text-2 .machine{
+    margin-left: 30px;
+    margin-top: 150px;
+    position: absolute;
+}
+.text-2 h3{
+    text-align: center;
+    color: #FF5414;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-2 .j1{
+    float: right;
+    border: 3px solid black;
+    margin-top: -280px;
+    margin-left: 1290px;
+    position: absolute;
+}
+.product{
+    height: 1130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+}
+.product .j2{
+    height: 450px;
+    width: 20%;
+    border: 3px solid black;
+}
+.j2 img{
+    height: 100%;
+    width: 100%;
+}
+.j2 .text-3{
+    height: 90px;
+    width: 374px;
+    border: 1px solid transparent;
+}
+.text-3 h2{
+    font-family: 'Poppins', sans-serif;
+    color: #FF5414;
+    font-size: 30px;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+.text-3 p{
+    border: 1px solid transparent;
+    display: inline-block;
+    font-size: 26px;
+    margin-left: 47px;
+    color: #384337;
+    font-family: 'Poppins', sans-serif;
+}
+.discount{
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 300;
+    color: #384337;
+    margin-left: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+.product .j3{
+    height: 450px;
+    width: 100%;
+    border: 3px solid black;
+    margin-top: 40px;
+}
+.j2 .view{
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    margin-top: 220px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: #384337;
+}
+.j2 .view:hover{
+    background-color: #7C5F4A;
+    transition: 0.5s;
+}
+.j2 .view h1{
+    margin-top: 100px;
+    color: #EADAC5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+/* SERVED  */
+.served{
+    height: 990px;
+    width: 100%;
+    background-color: #384337;
+    border: 1px solid transparent;
+    display: flex;
+}
+.served .icon-2{
+    height: 699px;
+    width: 50%;
+    margin-top: 150px;
+    border: 2px solid black;
+}
+.served .icon-2 img{
+    height: 100%;
+    width: 100%;
+}
+.served .text-4{
+    height: 690px;
+    width: 50%;
+    margin-top: 150px;
+    border: 1px solid transparent;
+}
+.served .text-4 h1{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #EADAC5;
+    margin-left: 100px;
+}
+.served .text-4 h3{
+    color: #EADAC5;
+    margin-left: 100px;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.served .text-4 button{
+    height: 80px;
+    width: 200px;
+    font-size: 25px;
+    color: #EADAC5;
+    background-color: #7C5F4A;
+    border-radius: 40px;
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.served .text-4 img{
+    height: 70px;
+    margin-top: 130px;
+}
+/* review  */
+.review{
+    height: 1200px;
+    width: 100%;
+    border: 3px solid transparent;
+    background-color: #7C5F4A;
+}
+.review .text-5{
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.review .text-5 h1{
+    color: #EADAC5;
+    font-size: 140px;
+    font-family: 'Poppins', sans-serif;
+}
+.review .text-5 h3{
+    color: #FF5414;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.review .reviewbox{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid transparent;
+}
+.review .reviewbox .customer{
+    height: 300px;
+    width: 520px;
+    margin-top: 60px;
+    background-color: #EADAC5;
+    border: 3px solid black;
+}
+.reviewbox .customer .j4{
+    border: 3px solid black;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+.reviewbox .customer h3{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 170px;
+    margin-top: -80px;
+    font-size: 23px;
+}
+.reviewbox .customer h2{
+    color: black;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.reviewbox .customer .star{
+    margin-left: 170px;
+}
+/* sweet  */
+.sweet{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid transparent;
+}
+.sweet img{
+    height: 600px;
+    width: 500px;
+    border: 3px solid black;
+}
+/* footer  */
+.footer{
+    height: 600px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #384337;
+    display: flex;
+}
+.footer .time{
+    height: 600px;
+    width: 30%;
+    border: 1px solid transparent;
+}
+.footer .time img{
+    margin-top: 130px;
+    margin-left: 80px;
+    height: 60px;
+}
+.footer .time h2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 80px;
+    color: #EADAC5;
+    font-weight: 400;
+}
+.footer .time h1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: #EADAC5;
+}
+.footer .f-home{
+    height: 600px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+}
+.f-home a{
+    color: #EADAC5;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer .f-policy{
+    height: 600px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+}
+.f-policy a{
+    color: #EADAC5;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer .f-social{
+    height: 600px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+}
+.f-social a{
+    color: #EADAC5;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer .f-contact{
+    height: 600px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+}
+.f-contact h2{
+    color: #EADAC5;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    text-align: center;
+}
+.f-contact h3{
+    color: #EADAC5;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.f-contact a{
+    color: #FF5414;
+}
+.f-logo{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid transparent;
+    background-color: #384337;
+}
+.f-logo h1{
+    text-align: center;
+    color: #EADAC5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 600px;
+    margin-top: -100px;
+}
+/* This only changes this particular animation duration */
+.animate__animated.animate__fadeInRightBig {
+    --animate-duration: 2s;
+}
+.animate__animated.animate__fadeInLeftBig {
+    --animate-duration: 2s;
+} 
+
+
+/* @import url("<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">"); */
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+#changingText {
+  color: #ffd166;
+  border-right: 1px solid black;
+  animation: cursoranim 1s linear infinite;
+}
+
+@keyframes cursoranim {
+  50% {
+    border-right: 1px solid rgba(0, 0, 0, 0);
+  }
+}
